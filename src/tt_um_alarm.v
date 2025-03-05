@@ -29,5 +29,5 @@ module tt_um_alarm (
     assign uio_oe[7:0]  = 8'b00000000;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, ui_in[7:4], uio_out[7:0]};
+    wire _unused = &{ena, clk, rst_n, ui_in[7:4], uio_in[7:0]};
 endmodule
