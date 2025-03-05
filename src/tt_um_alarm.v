@@ -15,13 +15,13 @@ module tt_um_alarm (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-    SENSOR #(.is port(5)) C(
-        .A(ui_in[0]),
-        .B(ui_in[1]),
-        .C(ui_in[2]),
-        .D(ui_in[3]),
-        .Y(uo_out[0:0])
-    );
+    SENSOR C (
+    .A(ui_in[0]),
+    .B(ui_in[1]),
+    .C(ui_in[2]),
+    .D(ui_in[3]),
+    .Y(uo_out[0])
+);
 
   // All output pins must be assigned. If not used, assign to 0.
     assign uo_out[7:1]  = 1'b0000000;  // Example: ou_out is the sum of ui_in and uio_in
