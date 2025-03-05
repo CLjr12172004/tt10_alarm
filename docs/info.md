@@ -10,6 +10,7 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 The VHDL code describes a combinational logic circuit that implements the function  Y = D AND (A OR B OR C), where D acts as a master enabler and A, B, C are sensor inputs,
 Inside this folder the image of the truth table is attached.
+
 ![Tabla de Verdad](https://github.com/user-attachments/assets/97fd5d14-5d4d-4d5a-b937-07370bfbdb13)
 We have four inputs and one output:
   Inputs: A, B, C, D 
