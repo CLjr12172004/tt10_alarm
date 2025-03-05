@@ -20,7 +20,7 @@ module tt_um_alarm (
         .B(ui_in[1]),
         .C(ui_in[2]),
         .D(ui_in[3]),
-        .Y(uo_out[0])
+        .Y(uo_out[0:0])
     );
 
   // All output pins must be assigned. If not used, assign to 0.
